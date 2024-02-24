@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="photo.png">
+    <link rel="stylesheet" href="home.css" >
+    <title>KwambokaEdina</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+    background-color: rgb(16, 16, 16);
+    height: 100%;
+   /* overflow: hidden; */
+}
+p{
+    color: white;
+    font-size: 22px;
+    background-color: rgb(16, 16, 16);
+    height: 100%;
+    overflow: hidden;
+}
+#navigation li{
+    display:inline;
+}
+
+#navigation li a{
+    padding: 10vh;
+    font-size: 4vh;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+#row{
+    display: flex;
+}
+#column{
+    border-style: solid;
+    border-color:transparent;
+    border-radius: 15px;
+    margin: 0px 10px;
+    padding:25px;
+    flex:40%;
+    height: 70vh;
+}
+#description{
+    padding: 15px;    
+}
+#description h1{
+    color: white;    
+}
+#description h2{
+    color: white;
+}
+ #description li{
+    color: white;
+    display: block;
+    list-style-type: none;
+    font-family:monospace;
+    font-size:3vh;
+    margin: 5px;
+}
+#social-media-handles{
+    padding: 5px;
+}
+h3 {
+    padding: 10px;
+    color: white;
+    font-size: 22px;
+    font-family: monospace;
+}
+#name p{
+    padding: 15px;
+    font-family: monospace;
+    font-size: 5vh;
+}
+h3 p{
+    padding: 15px;
+    font-size: 20px;
+}
+#row{
+    display: flex;
+}
+#column{
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 15px;
+    margin: 0px 10px;
+    padding:25px;
+    flex:40%;
+    height: 70vh; 
+}
+.circle-frame {
+    position: relative;
+    width: 450px; 
+    height: 450px; 
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .circle-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(100%);
+    transition: filter 0.3s;
+}
+.circle-frame:hover img {
+    filter: grayscale(0%);
+}
+h3 {
+    color: white;
+    font-size: 12px;
+    font-family: monospace;
+}
+#hello-hand{
+    display: inline-block;
+    animation-name: hand;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+}
+@keyframes hand{
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) } 
+   10% { transform: rotate(14.0deg) } 
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  
+   60% { transform: rotate( 0.0deg) } 
+  100% { transform: rotate( 0.0deg) }
+}
+#all-terminals{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+#all-terminals #terminal-box{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#terminal-box{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+    height: 60vh;
+    width: 80vh;
+    border-style: solid;
+    background-color:  rgb(58, 53, 53);
+    border-radius: 10px;
+    box-shadow: 8px 8px #988d8d;
+
+}
+
+#navigations-bar{
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(3, 3, 3);
+    height: 4.5vh;
+}
+#navigation-buttons{
+    display: flex;
+    padding: 2px;
+}
+#navigation-buttons1{
+    background-color: red;
+    height: 3vh;
+    width: 3vh;
+    border-style: solid;
+    border-radius: 10px;
+
+}
+#navigation-buttons2{
+    background-color: orange;
+    height: 3vh;
+    width: 3vh;
+    border-style: solid;
+    border-radius: 10px;
+
+}
+#navigation-buttons3{
+    background-color:greenyellow;
+    height: 3vh;
+    width: 3vh;
+    border-style: solid;
+    border-radius: 10px;
+}
+#terminal-box #content{
+    color: white;    
+    font-family: monospace;
+    font-weight:bolder;    
+    padding: 25px;
+
+}
+     
+
+#copyright{
+    font-family: monospace;
+    margin: 15px;
+    color: white;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+    <div id="navigation">    
+        <ul>
+            <li><a href="#"> Home</a></li>
+            <li><a href="#About"> About Me</a></li>
+            <li><a href=""><big>Kwamboka</big> </a></li>
+            <li><a href="#Projects"> Projects</a></li>
+        </ul>
+    </div>
+</header>
+<main>
+    <div id="row">
+        <div id="column">
+            <div class="circle-frame">
+            <img src="photo.png" alt="" srcset=""  > 
+        </div>
+        <p style="height: 50px; overflow: hidden;">This is not me....
+            But a friend who looks more photogenic!</p>
+        </div>
+       
+           
+        
+        <div id="column">
+            <div id="description">
+            <h1>Hello, glad to see you here.
+                 <div id="hello-hand">👋</div>
+                 </h1>                 
+            <h1>I am Edina Kwamboka </h1>
+          <h2>Front-End WebDeveloper & Software Engineer 👩‍💻</h2>
+          <ul>            
+            <li>☕  Fueled by coffee</li>
+            <li>🏚️  Nairobi,Kenya</li>
+            <li>👩‍🎓  Student @ DEKUT</li>
+           <li>📧   edinakwambokabwari@gmail.com</li>
+          </ul>
+          <div id="social-media-handles">
+            <a href="https://github.com/edinabwari" target="_blank"><i class="fa fa-github" style="font-size:36px"></i></a>
+            <a href="https://twitter.com/edina_kb?s=09" target="_blank"><i class="fa fa-twitter" style="font-size:36px"></i></a>
+            <a href="https://www.linkedin.com/in/edina-kwamboka-93b167254" target="_blank"><i class="fa fa-linkedin" style="font-size:36px"></i></a>
+          </div>
+        </div>
+    </div>
+</main>
+<div id="About">
+    <center><h1 style="color: white;">About Me</h1></center>
+    <div id="all-terminals">
+        <div id="terminal-box">
+           <div id="navigations-bar">
+               <div id="navigation-buttons">
+               <div id="navigation-buttons1"></div>
+               <div id="navigation-buttons2"></div>
+               <div id="navigation-buttons3"></div>
+            </div>
+               <div id="content">
+                   <p style="color: rgb(116, 172, 94); background-color: rgb(58, 53, 53);">As a software developer, I thrive on challenges and constantly seeking new opportunities to expand my 
+                    skillset and knowledge. My approach to development is rooted in collaboration, 
+                     communication, and a commitment to delivering high-quality solutions that exceed expectations. 
+                     I'm dedicated to driving innovation and achieving excellence in every project I undertake.</p>
+               </div>
+           </div>
+           
+        </div>
+        <div id="terminal-box">
+           <div id="navigations-bar">
+               <div id="navigation-buttons">
+               <div id="navigation-buttons1"></div>
+               <div id="navigation-buttons2"></div>
+               <div id="navigation-buttons3"></div>
+               </div>
+               <div id="content">
+                   <p style="color: rgb(116, 172, 94); background-color: rgb(58, 53, 53);">In my free time, I enjoy a diverse range of hobbies. Swimming keeps me refreshed and active, 
+                    while cooking lets me experiment with new flavors and delight others with delicious meals.
+                     Coding is another passion of mine, offering a fulfilling challenge as I solve problems and 
+                     create innovative software solutions.
+                     Each hobby brings its own sense of fulfillment and excitement to my life.</p>
+               </div>
+           </div>
+        </div>  
+       </div>
+</div>
+
+<div id="Projects">
+    <center><h1 style="color: white;">Projects</h1></center>
+    <ul style="list-style-type:disc;">
+        <li style="color: white;">A simple food blog website</li>
+        <li style="color: white;">Personal portfolio </li>
+        <li style="color: white;">Web Scrapping an ecommerce website.</li>
+        </ul>
+    
+
+</div>
+        <footer>
+            <div id="copyright">
+             <center> <p>@ 2024, Edina Kwamboka, All Rights Preserved</p></center> 
+           </div>
+    </div>
+</footer>    
+</body>
+</html>
